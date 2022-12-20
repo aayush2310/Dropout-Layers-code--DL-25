@@ -1,0 +1,14 @@
+Dropout is a regularization called regularization by randomization.
+
+Practical Tips:-
+1)overfitting=>p(increase karo),underfitting=>p(decrease karo)
+2)apply dropout after last layer only,might give awesome result.
+3)CNN=>p(0.4-0.5)
+  RNN=>p(0.2-0.3)
+  ANN=>p(0.1-0.5)
+  
+DRAWBACKS=>
+1)delay in convergence if we use dropouts.
+2)The value of the loss function changes in each epoch as random switching off of the nodes is taking place,so value of gradient changes,which is difficult to debug for
+  the system.
+  
